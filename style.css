@@ -1,0 +1,47 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(233, 233, 233);
+    width: 1000px;
+    
+}
+
+div.caja{
+    width: 300px;
+    height: 300px;
+    margin: 150px 500px;
+    background-color: white;
+    display: inline-block;
+    padding: 40px 60px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+a.sign-up{
+    background-color: rgb(68, 147, 221);
+    border-radius: 5px;
+    color:white;
+    padding: 9px 35px 9px 35px;
+    font-size: 13px;
+    box-shadow: 2px 2px 6px gray;
+}
+
+a.sign-up:hover{
+    background-color: indianred;
+    color: white;
+}
+
+.boton{
+    width:200px;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(68, 147, 221);
+}
+
+a:hover{
+    color:indianred;
+}
